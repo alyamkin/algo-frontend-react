@@ -17,9 +17,6 @@ export default function Counter() {
       setCount(4);
     }
 
-    const startTime = new Date();
-    while (new Date() - startTime < 500) {}
-
     return () => console.log('cleanup count change');
   }, [count]);
 
@@ -48,8 +45,8 @@ export default function Counter() {
   //   console.log('pressed re-render');
   // }, [bool]);
 
-  // const startTime = new Date();
-  // while (new Date() - startTime < 100) {}
+  const startTime = new Date();
+  while (new Date() - startTime < 100) {}
 
   console.log('BEFORE RETURN');
 
