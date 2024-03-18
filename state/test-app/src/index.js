@@ -15,10 +15,13 @@ import Gallery from './Gallery';
 // import ResetState from './ResetState';
 // import PreviousRender from './PreviousRender';
 // import Accordion from './Accordion';
-import AccordionV2 from './AccordionV2';
+// import AccordionV2 from './AccordionV2';
+// import ReducerDemo from './ReducerDemo';
+// import FormWithReducer from './FormWithReducer';
+import TaskAppReducer from './TaskAppReducer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<AccordionV2 />);
+root.render(<TaskAppReducer />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
